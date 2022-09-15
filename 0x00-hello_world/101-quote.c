@@ -9,6 +9,6 @@
 int main(void)
        
 {
-write("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 4, stderr);
+write(4, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59, stderr);
 return (1);
 }
