@@ -9,10 +9,11 @@ int main(void)
 	char lalpha = 'a';
 	char ualpha = 'A';
 
-	while (lalpha <= 'z'; ualpha <= 'Z';)
+	while (lalpha <= 'z') (ualpha <= 'Z')
 {
 		putchar(lalpha);
 		lalpha++;
+
 		putchar(ualpha);
 		ualpha++;
 }
