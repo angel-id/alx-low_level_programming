@@ -6,7 +6,7 @@
  *  main - store different var everytime you run this program
  *  then print last digit if greater than five, less than six
  *  and not zero and if last digit is zero
- *  return: 0;
+ *  Return: 0
  */
 
 int main(void)
