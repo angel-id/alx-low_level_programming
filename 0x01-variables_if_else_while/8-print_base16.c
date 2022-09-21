@@ -10,12 +10,14 @@ int main(void)
 	int y;
 	char x;
 
-	for (y = 0; y < 10; y++)
-{
+	for (y = 11; y < 21; y++)
+
+	{
 	putchar(y);
-}
+	}
 
 	for (x = 'a'; x < 'g'; x++)
+
 	{	
  	putchar(x);
 	}
