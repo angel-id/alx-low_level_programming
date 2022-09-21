@@ -11,8 +11,8 @@ int main(void)
 	int x;
 	for (x = 0; x < 10; x++)
 	{
-		putchar(c);
-		if (c < 9)
+		putchar(x);
+		if (x < 9)
 		{
 			putchar(3);
 			putchar(-14);
