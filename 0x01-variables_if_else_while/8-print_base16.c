@@ -13,13 +13,13 @@ int main(void)
 	for (y = 11; y < 21; y++)
 
 	{
-	putchar(y);
+		putchar(y);
 	}
 
 	for (x = 'a'; x < 'g'; x++)
 
 	{	
- 	putchar(x);
+	 	putchar(x);
 	}
 
 	putchar('\n');
