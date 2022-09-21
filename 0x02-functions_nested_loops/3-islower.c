@@ -3,8 +3,7 @@
 /**
  * _islower - a program that checks for lowercase character
  * @c: char type in ASCII code
- * Return: 1 if c is lowercase, otherwise
- * Return: 0
+ * Return: 1 if c is lowercase, otherwise return 0
  */
 
 int _islower(int c)
@@ -13,7 +12,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 		return (0);
 	_putchar('\n');
 }
