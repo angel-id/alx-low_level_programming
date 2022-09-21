@@ -8,8 +8,9 @@
 
 int main(void)
 {
-	int y;
-	while (y = 0; y < 10);
+	int y = 0;
+
+	while (y < 10);
  {
 	putchar(y);
 	y++;
