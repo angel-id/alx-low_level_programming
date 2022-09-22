@@ -6,7 +6,7 @@
  * Return: string
  */
 
-char *rot13(char *);
+char *rot13(char *)
 {
 	int u, v;
 	char x[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
