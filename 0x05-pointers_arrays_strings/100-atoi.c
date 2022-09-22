@@ -13,7 +13,7 @@ int _atoi(char *s)
 		int count = 1;
 		unsigned int num = 0;
 
-	do{
+	do {
 	if (*s == '-')
 	count *= -1;
 	else if (*s >= '0' && *s <= '9')
