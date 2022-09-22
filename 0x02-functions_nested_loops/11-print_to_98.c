@@ -5,7 +5,7 @@
  * @i: int type number
  */
 
-int print_to_98(int i)
+void print_to_98(int i)
 {
 	if (i > 98)
 	{
