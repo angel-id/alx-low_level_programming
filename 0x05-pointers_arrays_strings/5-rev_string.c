@@ -12,12 +12,11 @@ void rev_string(char *s)
 
 	j = 0;
 	k = 0;
-	while (s[j] != '\0')				
+	while (s[j] != '\0')
 	{
 		j++;
 	}
 	k = j - 1;
-
 	for (i = 0; i < j / 2; i++)
 	{
 		ggg = s[i];
