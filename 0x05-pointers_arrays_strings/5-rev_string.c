@@ -9,9 +9,9 @@
 void rev_string(char *s)
 {	char ggg;
 	int i, j, k;
+
 	j = 0;
 	k = 0;
-
 	while (s[j] != '\0')				
 	{
 		j++;
