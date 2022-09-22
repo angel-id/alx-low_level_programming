@@ -9,6 +9,7 @@
 int main(void)
 {
 	long int num1, num2, fibn, afibn;
+
 	num1 = 1;
 	num2 = 2;
 	fibn = afibn = 0;
