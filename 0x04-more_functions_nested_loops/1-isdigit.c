@@ -3,7 +3,7 @@
 /**
  * _isdigit - Check for digits (0 through 9)
  * @c: int type param
- * Return: 1 if digit, else 0
+ * Return: 1 if digit otherwise 0
  */
 
 int _isdigit(int c)
