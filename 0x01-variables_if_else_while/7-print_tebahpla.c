@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * a program that prints alphabets
- * in reverse
+ * main - a program that prints alphabets in
+ * reverse
+ *
  * return 0
  */
 
