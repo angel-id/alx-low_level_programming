@@ -10,10 +10,9 @@
 int main(void)
 {
 	int y;
+
 	y = 0;
-
 	while (y < 10)
-
 	{
 		y++;
 		putchar(y);
