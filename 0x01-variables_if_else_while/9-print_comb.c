@@ -14,10 +14,10 @@ int main(void)
 
 	{
 		putchar(x);
-		if (x < 56)
+		if (x <= 56)
 		{
-			putchar(51);
-			putchar(44);
+			putchar(',');
+			putchar(' ';
 		}
 
 	}
