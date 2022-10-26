@@ -4,7 +4,7 @@
  * main - a program that prints alphabets in
  * reverse
  *
- * return 0
+ * return: 0
  */
 
 int main(void)
