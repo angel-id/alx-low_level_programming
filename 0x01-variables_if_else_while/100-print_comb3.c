@@ -19,8 +19,7 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
-				if (x <= 56 || y <= 55)
-				
+				if (x < 56 || y < 55)
 				{
 					putchar(',');
 					putchar(' ');
