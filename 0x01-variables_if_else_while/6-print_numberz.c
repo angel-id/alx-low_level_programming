@@ -15,9 +15,8 @@ int main(void)
 	while (y < 10)
 	{
 		y++;
-		putchar(y);
 	}
-
+	putchar(y);
 	putchar('\n');
 	return (0);
 }
