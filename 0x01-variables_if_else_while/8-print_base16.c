@@ -8,7 +8,8 @@
 int main(void)
 {
 	int y;
-	char x;	
+	char x;
+
 	for (y = 48; y <= 57; y++)
 	{
 		putchar(y);
