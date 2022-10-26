@@ -9,21 +9,21 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 0; x < 10; x++)
+	for (x = 48; x <= 57; x++)
 
 	{
-		for (y = 1; y < 10; y++)
+		for (y = 49; y <= 57; y++)
 		{
 
 			if (y > x)
 			{
 				putchar(x);
 				putchar(y);
-				if (x < 8 || y < 7)
+				if (x <= 56 || y <= 55)
 				
 				{
-					putchar(3);
-					putchar(-14);
+					putchar(',');
+					putchar(' ');
 				}
 
 			}
