@@ -16,8 +16,8 @@ int main(void)
 		putchar(x);
 		if (x <= 56)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(',');/*prints comma*/
+			putchar(' ');/*prints space*/
 		}
 
 	}
