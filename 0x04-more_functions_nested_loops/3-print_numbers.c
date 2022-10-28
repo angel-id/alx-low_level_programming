@@ -10,12 +10,8 @@
 void print_numbers(void)
 {
 	int n;
-	n = 0;
 
-	while (n <= 57)
-	{
-		n++;
+	for (n = 0; n <= 9; n++)
 		putchar(n + 48);
-	}
 	putchar('\n');
 }
