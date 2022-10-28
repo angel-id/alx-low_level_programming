@@ -11,9 +11,9 @@ void print_numbers(void)
 {
 	int n;
 
+	n = 0;
 	while (n < 57)
 	{
-		n = 48;
 		n++;
 		putchar(n);
 	}
