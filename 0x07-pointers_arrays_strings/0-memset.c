@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /*
  * _memset - a program that fills the memory
@@ -24,5 +23,5 @@ char *_memset(char *s, char b, unsigned int n)
 		memory++;
 	}
 
-	return(s);
+	return (s);
 }
