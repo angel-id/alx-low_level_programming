@@ -9,7 +9,7 @@
 
 void print_to_98(int a)
 {
-       	while (a < 98)
+	while (a < 98)
 	{
 		printf("%d, ", a);
 		a++;
@@ -18,7 +18,7 @@ void print_to_98(int a)
 	{
 		printf("%d, ", a);
 		a--;
+	
+		printf("%d\n", a);
 	}
-
-    printf("%d\n", a);
 }
