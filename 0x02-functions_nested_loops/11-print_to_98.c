@@ -18,7 +18,7 @@ void print_to_98(int a)
 	{
 		printf("%d, ", a);
 		a--;
-	
-		printf("%d\n", a);
 	}
+
+	printf("d\n", a);
 }
