@@ -6,18 +6,21 @@
  * Return: nothing
  */
 
-void more_numbers(void)
-{
-	int m, n;
+void more_numbers(voidi)
 
-	for (m = 0; m < 10; m++)
+{
+	int i, j;
+
+	i = 0;
+	while (i < 10)
 	{
-		for (n = 0; n < 15; n++)
+		for (j = 0; j < 15; j++)
 		{
-			if (n >= 10)
-				_putchar(n / 10 + '0');	
-			_putchar(n % 10 + '0');	
+			_putchar("%d", j);
 		}
-		_putchar('\n');
+		_putchar("\n");
+		i++;
+	
 	}
+
 }
