@@ -1,35 +1,32 @@
 #include <stdio.h>
 
 /**
- * main - prints Buzz each numbers of 3 and 5
- * Return: 0.
+ * main - prints "Fizz" for multiples of '3',
+ * prints "Buzz" for multiples of '5' and
+ * prints "FizzBuzz" for multiples of '3' and '5'.
+ * Return: 0
  */
 
 int main(void)
 {
-	int i;
+	int a;
 
-	i = 1;
-	printf("%d", i);
-
-	for (i = 2; i <= 100; i++)
+	for (a = 1; a <= 100; a++)
 	{
-		if ((i % 3 == 0) && (i % 5 == 0))
+		if (a % 15 == 0)
 		{
-			printf(" FizzBuzz");
+			printf("FizzBuzz ");
 		}
-		else if (i % 3 == 0)
+		else if (a % 3 == 0)
 		{
-			printf(" Fizz");
+			printf("Fizz ");
 		}
-		else if (i % 5 == 0)
+		else if (a % 5 == 0)
 		{
-			printf(" Buzz");
+			printf("Buzz ");
 		}
 		else
-		{
-			printf(" %d", i);
-		}
+			printf("%d ", a);
 	}
 	printf("\n");
 	return (0);
