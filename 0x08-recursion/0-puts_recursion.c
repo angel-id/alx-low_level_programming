@@ -2,12 +2,13 @@
 #include <unistd.h>
 
 /**
- * a function that prints a string, followed by a new line.
+ * _puts_recursion - a function that prints a string.
+ * @s: the pointer type param
  *
  * Return 0;
  */
 
- void _puts_recursion(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
