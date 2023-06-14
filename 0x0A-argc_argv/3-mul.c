@@ -6,7 +6,8 @@
  * main - a program that multiplies two numbers
  * @argc: argument count
  * @argv: argument vector
- * Return: 1
+ * Return: 1 if program does not receive two arguments
+ * and 0 if it does.
  */
 
 int main(int argc, char *argv[])
@@ -18,7 +19,6 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < argc; i++)
 		{
-			printf("%s\n", argv[i]);
 			mul = atoi(argv[1]) * atoi(argv[2]);
 		}
 		printf("%d\n", mul);
