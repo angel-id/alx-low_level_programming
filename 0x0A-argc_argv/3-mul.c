@@ -22,8 +22,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	return (0);
-
 	else if (argc > 1)
 	{
 		for (i = 0; i < argc; i++)
@@ -32,4 +30,5 @@ int main(int argc, char *argv[])
 		}
 		printf("%d\n", mul);
 	}
+	return (0);
 }
