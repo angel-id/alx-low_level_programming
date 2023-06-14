@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main - a program that multiplies two numbers
+/**
+ * main - a program that multiplies two numbers.
  * @argc: argument count
  * @argv: argument vector
  * Return: 1 if program does not receive two arguments
@@ -30,5 +30,5 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	return (0);	
+	return (0);
 }
