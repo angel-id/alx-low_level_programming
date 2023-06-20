@@ -24,12 +24,11 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; i < s1[i] != '\0'; i++)
 		;
-
 	for (j = 0; j < s2[j] != '\0'; j++)
 		;
 	/*allocate memory for both strings s1 and s2*/
 
-	str = (char *)malloc(sizeof(char) * (i + 1 + ( j )));
+	str = (char *)malloc(sizeof(char) * (i + 1 + (j)));
 
 	if (str == NULL)
 		return (NULL);
@@ -48,7 +47,7 @@ char *str_concat(char *s1, char *s2)
 		k++;
 	}
 	str[i + j] = '\0';
-	
+
 
 	return (str);
 }
