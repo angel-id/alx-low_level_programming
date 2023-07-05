@@ -7,21 +7,22 @@
  * of words in a string
  * @s: the string pointer to count
  *
- * Returns an int on success
+ * Return: an int on success
  */
 
 int stringwordcount(char *s)
 {
-	static int i,words=0;
-	if(!s[i])
+	static int i, words = 0;
+
+	if (!s[i])
 	{
-		if(i>0)
+		if (i > 0)
 			words++;
 		return (words);
 	}
 	else
 	{
-		if(s[i++]==32)
+		if (s[i++] == 32)
 			words++;
 	}
 	stringwordcount(s);
