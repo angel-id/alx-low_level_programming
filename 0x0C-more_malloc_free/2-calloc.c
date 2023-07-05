@@ -6,7 +6,7 @@
  * @nmemb: the array members
  * @size: size of the array
  *
- * Return: void;
+ * Return: pointer
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -30,8 +30,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		i = 0;
 		while (i < (nmemb * size))
 		{
-			i++;
 			*((char *)(ptr) + 1) = 0;
+			i++;
 		}
 	}
 	return (ptr);
