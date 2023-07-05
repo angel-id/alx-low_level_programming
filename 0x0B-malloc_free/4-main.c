@@ -1,19 +1,4 @@
-t_grid(int **grid, int width, int height)
-{
-	    int w;
-	        int h;
-
-		    h = 0;
-		        while (h < height)
-				    {
-					            w = 0;
-						            while (w < width)
-								            {
-										                printf("%d ", grid[h][w]);
-												            w++;
-													            }
-							            printf("\n");
-								            h+#include "main.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -25,7 +10,22 @@ t_grid(int **grid, int width, int height)
  *
  * Return: Nothing.
  */
-void prin+;
+void print_grid(int **grid, int width, int height)
+{
+    int w;
+    int h;
+
+    h = 0;
+    while (h < height)
+    {
+        w = 0;
+        while (w < width)
+        {
+            printf("%d ", grid[h][w]);
+            w++;
+        }
+        printf("\n");
+        h++;
     }   
 }
 
