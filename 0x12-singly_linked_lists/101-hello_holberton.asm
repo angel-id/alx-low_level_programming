@@ -1,17 +1,15 @@
-	global		_start
+SECTION 	.data
+msg:		db "Hello, Holberton", 0
+fmt:		db "%s", 10, 0
 
-	
-	section		.text
-_start: mov		rax, 1
-	mov		rdi, 1
-	mov		rsi, message
-	mov		rdx, 17
-	syscall
-	mov		rax, 60
-	xor		rdi, rdi
-	syscall
+		SECTION .text
+		extern printf
+		global main
+main:
+		mov esi, msg
+		mov edi, fmt
+		mov eax, 0
+		call printf
 
-
-	section		.data
-message: db		"Hello, Holberton", 10
-
+		mov eax, 0
+		ret
