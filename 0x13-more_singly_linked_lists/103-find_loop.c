@@ -35,7 +35,7 @@ listint_t *find_listint_loop(listint_t *head)
 		}
 
 		fnode = fnode->next;
-		nodes = (snode->next)->next;
+		snode = (snode->next)->next;
 	}
 
 	return (NULL);
